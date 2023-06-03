@@ -1,0 +1,84 @@
+{
+    "orders": [
+      {
+        "logo": "logo.png",
+        "brand_name": "McDonalds",
+        "product": "Big Mac Jumbo",
+        "quantity": "2,897",
+        "price": 9,
+        "placed_on": "6/3/22"
+      },
+      {
+        "logo": "MCD.png",
+        "brand_name": "Tesla",
+        "product": "Model X",
+        "quantity": "9,387",
+        "price": 3000,
+        "placed_on": "12/2/22"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "GM",
+        "product": "Alternator Car Parts",
+        "quantity": "02",
+        "price": 49,
+        "placed_on": "4/19/23"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "AARP",
+        "product": "Health Care Package Adult A1",
+        "quantity": "89",
+        "price": 289,
+        "placed_on": "1/2/23"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "Disney",
+        "product": "Renewal Subscription",
+        "quantity": "276",
+        "price": 23,
+        "placed_on": "9/4/23"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "Prime Theraputics ",
+        "product": "Natural oil",
+        "quantity": "1,098",
+        "price": 135,
+        "placed_on": "6/3/22"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "McDonalds",
+        "product": "Big Mac Jumbo",
+        "quantity": "2,897",
+        "price": 9,
+        "placed_on": "12/2/22"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "Match.com",
+        "product": "Renewal Subscription",
+        "quantity": "4,298",
+        "price": 48,
+        "placed_on": "4/9/23"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "Chevy",
+        "product": "FX234A",
+        "quantity": "1,897",
+        "price": 90,
+        "placed_on": "1/2/23"
+      },
+      {
+        "logo": "logo1.png",
+        "brand_name": "GM",
+        "product": "Car Parts AJZ89B",
+        "quantity": "640",
+        "price": 167,
+        "placed_on": "1/2/23"
+      }
+    ]
+  }
