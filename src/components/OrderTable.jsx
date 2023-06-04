@@ -51,9 +51,9 @@ const OrderTable = ({ orders }) => {
   });
 
   return (
-    <div className=" flex bg-gray-100">
+    <div className=" flex ">
       <Sidebar />
-      <div className="w-[80vw] p-6">
+      <div className="p-6 bg-gray-100">
         <div className="p-2 flex w-full justify-between">
           <h1 className="text-[26px] font-bold ">Orders</h1>
           <button className="py px-4 bg-blue-600 self-center pb-1 rounded-xl text-white">
@@ -62,7 +62,7 @@ const OrderTable = ({ orders }) => {
           </button>
         </div>
         <hr />
-        <table className=" mt-4 w-full min-w-max bg-white rounded-3xl ">
+        <table className=" mt-4 w-[75vw] bg-white rounded-3xl ">
           <thead className="text-gray-400">
             <tr className="">
               {" "}
@@ -130,10 +130,12 @@ const OrderTable = ({ orders }) => {
           <tbody>
             {sortedOrders.map((order, index) => (
               <tr key={index} >
-                <td className="p-2 border-b flex h-[4rem]">
-                  <img src={order.logo} alt="" className="" />
-                  <h1 className=" font-bold">{order.brand_name} </h1>
-                  <h2 className="text-gray-400"> ({order.product})</h2>
+                <td className="p-2 border-b flex h-[4rem] gap-4 w-fit">
+                  <img className="w-12 h-8" src={order.logo} alt="" />
+                  <div>
+                  <h1 className=" text-[14px] font-bold">{order.brand_name} </h1>
+                  <p className="text-gray-400 text-[12px]"> ({order.product})</p>
+                  </div>
                 </td>
                 <td className="p-2 border-b">{order.quantity}</td>
                 <td className="p-2 border-b">{order.price}</td>

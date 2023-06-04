@@ -1,7 +1,7 @@
 {
     "orders": [
       {
-        "logo": "logo.png",
+        "logo": "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
         "brand_name": "McDonalds",
         "product": "Big Mac Jumbo",
         "quantity": "2,897",
@@ -9,7 +9,7 @@
         "placed_on": "6/3/22"
       },
       {
-        "logo": "MCD.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
         "brand_name": "Tesla",
         "product": "Model X",
         "quantity": "9,387",
@@ -17,7 +17,7 @@
         "placed_on": "12/2/22"
       },
       {
-        "logo": "logo1.png",
+        "logo": "https://static.dezeen.com/uploads/2021/01/gm-logo-rebrand-electric-vehicles-design_dezeen_2364_col_0-1.gif",
         "brand_name": "GM",
         "product": "Alternator Car Parts",
         "quantity": "02",
@@ -25,7 +25,7 @@
         "placed_on": "4/19/23"
       },
       {
-        "logo": "logo1.png",
+        "logo": "https://1000logos.net/wp-content/uploads/2016/10/AARP-Logo.png",
         "brand_name": "AARP",
         "product": "Health Care Package Adult A1",
         "quantity": "89",
@@ -33,7 +33,7 @@
         "placed_on": "1/2/23"
       },
       {
-        "logo": "logo1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg",
         "brand_name": "Disney",
         "product": "Renewal Subscription",
         "quantity": "276",
@@ -41,7 +41,7 @@
         "placed_on": "9/4/23"
       },
       {
-        "logo": "logo1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Prime_Therapeutics_LLC.svg",
         "brand_name": "Prime Theraputics ",
         "product": "Natural oil",
         "quantity": "1,098",
@@ -49,15 +49,7 @@
         "placed_on": "6/3/22"
       },
       {
-        "logo": "logo1.png",
-        "brand_name": "McDonalds",
-        "product": "Big Mac Jumbo",
-        "quantity": "2,897",
-        "price": 9,
-        "placed_on": "12/2/22"
-      },
-      {
-        "logo": "logo1.png",
+        "logo": "https://www.datingscout.com.au/b6/image/upload/ds/upload/reviews/ENG/match/match-com-logo.png",
         "brand_name": "Match.com",
         "product": "Renewal Subscription",
         "quantity": "4,298",
@@ -65,7 +57,7 @@
         "placed_on": "4/9/23"
       },
       {
-        "logo": "logo1.png",
+        "logo": "https://assets.turbologo.com/blog/en/2021/11/18085359/chevy-symbol.png",
         "brand_name": "Chevy",
         "product": "FX234A",
         "quantity": "1,897",
@@ -73,7 +65,7 @@
         "placed_on": "1/2/23"
       },
       {
-        "logo": "logo1.png",
+        "logo": "https://static.dezeen.com/uploads/2021/01/gm-logo-rebrand-electric-vehicles-design_dezeen_2364_col_0-1.gif",
         "brand_name": "GM",
         "product": "Car Parts AJZ89B",
         "quantity": "640",
