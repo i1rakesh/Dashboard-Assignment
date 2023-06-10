@@ -13,6 +13,8 @@ import green from "../assests/green.png"
 import red from "../assests/red.png"
 import Graph from "./Graph";
 import Donut from "../components/Donut";
+import Card from "./Card";
+import TraffiCard from "./TrafficCard"
 const Center = () => {
   return (
     <div className="flex ">
@@ -81,92 +83,18 @@ const Center = () => {
           </div>
           <div className="px-2 w-[45vw]">
             <div className="flex gap-6 flex-col md:flex-row ">
-              <div class="w-[100vw] md:w-1/2 px-2">
-                <div class="bg-[#EDEDF6] p-6 rounded-2xl hover:text-white hover:bg-gradient-to-r from-sky-400 from-10% via-sky-500 via-30% to-fuchsia-500 to-90%">
-                  <div className="flex justify-between mb-10">
-                    <img src={stat} alt="" />
-                    <div className="flex">
-                      <img className="w-fit h-fit self-center" src={green} alt="" />
-                      <h5>12%</h5>
-                    </div>
-                  </div>
-                  <div className="flex justify-between">
-                    <div>
-                      <h1 className="text-[24px] font-bold">42,34</h1>
-                      <h4>Bounce rate</h4>
-                    </div>
-                    <img src={add} alt="" className="h-fit w-fit" />
-                  </div>
-                </div>
-              </div>
-              <div class="w-[100vw] md:w-1/2 px-2">
-                <div class="bg-[#EDEDF6] p-6 rounded-2xl hover:text-white hover:bg-gradient-to-r from-sky-400 from-10% via-sky-500 via-30% to-fuchsia-500 to-90%">
-                  <div className="flex justify-between mb-10">
-                    <img src={calender} alt="" />
-                  </div>
-                  <div className="flex justify-between">
-                    <div className="flex">
-                      <div>
-                      <h1 className="text-[24px] font-bold">42,34</h1>
-                      <h4>Pages per visit</h4>
-                      </div>
-                      <img className="w-fit h-fit" src={question} alt="" />
-                    </div>
-                    <img src={add} alt="" className="h-fit w-fit" />
-                  </div>
-                </div>
-              </div>
+              <Card name="Bounce rate" incRate="12%" percentage="42,34%" img={stat} incRateImg={green} icon={question}/>
+              <Card name="Pages per visit" incRate="" percentage="42,34%" img={calender} icon={question}/>
             </div>
             <div className="flex gap-6 flex-col md:flex-row mt-6">
-              <div className="w-[100vw] md:w-1/2 px-2">
-                <div className="bg-[#EDEDF6] p-6 rounded-2xl hover:text-white hover:bg-gradient-to-r from-sky-400 from-10% via-sky-500 via-30% to-fuchsia-500 to-90%">
-                  <div className="flex justify-between mb-10">
-                    <img src={person} alt="" />
-                    <div className="flex">
-                      <img className="w-fit h-fit self-center" src={red} alt="" />
-                      <h5>2,1%</h5>
-                    </div>
-                  </div>
-                  <div className="flex justify-between">
-                    <div>
-                      <h1 className="text-[24px] font-bold">326.60K</h1>
-                      <h4>Total monthly Visit</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-[100vw] md:w-1/2 px-2">
-                <div class="bg-[#EDEDF6] p-6 rounded-2xl hover:text-white hover:bg-gradient-to-r from-sky-400 from-10% via-sky-500 via-30% to-fuchsia-500 to-90%">
-                  <div className="flex justify-between mb-10">
-                    <img src={time} alt="" />
-                    <div className="flex">
-                      <img className="w-fit h-fit self-center" src={red} alt="" />
-                      <h5>2,1%</h5>
-                    </div>
-                  </div>
-                  <div className="flex justify-between">
-                    <div>
-                      <h1 className="text-[24px] font-bold">00:03:27</h1>
-                      <h4>Avg. Visit Duaration</h4>
-                    </div>
-                    <img src={add} alt="" className="h-fit w-fit" />
-                  </div>
-                </div>
-              </div>
+            <Card name="Total monthly visit" incRate="2.1%" percentage="42,34%" img={person} incRateImg={red}/>
+            <Card name="Avg. Visit Duration" incRate="2.4%" percentage="00:03:27" img={time} incRateImg={red} />
             </div>
           </div>
         </div>
         <div className="md:flex block gap-4 px-6">
-          <div className="bg-[#EDEDF6] w-[100vw] lg:w-1/2 md:w-1/2 p-6 rounded-2xl hover:text-white hover:bg-gradient-to-r from-sky-400 from-10% via-sky-500 via-30% to-fuchsia-500 mb-4">
-            <h1 className="text-[24px] font-bold">Traffic Source</h1>
-            <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-            <Donut />
-          </div>
-          <div className="bg-[#EDEDF6] w-[100vw] md:w-1/2 p-6 rounded-2xl hover:text-white hover:bg-gradient-to-r from-sky-400 from-10% via-sky-500 via-30% to-fuchsia-500">
-            <h1 className="text-[24px] font-bold">Traffic Source</h1>
-            <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-            <Donut />
-          </div>
+          <TraffiCard name="Traffic Sources"/>
+          <TraffiCard name="Traffic Sources"/>
         </div>
       </div>
     </div>
